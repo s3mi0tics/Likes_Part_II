@@ -1,0 +1,51 @@
+/* reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* reset */
+
+*{
+    font-family: sans-serif ;
+}
+
+/* common flexbox classes */
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.space-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-content: center;
+    align-items: center;
+}
+/* /common flexbox classes */
+
+/* common font classes */
+.bolder{
+    font-weight: bolder;
+}
+/* element styles */
+button{
+    padding: 5px;
+}
+
+
+/*body styles */
+.card{
+height: 150px;
+width: 500px;
+padding: 20px;
+margin: 30px auto;
+border: 3px solid black;
+}
+.btn{
+    background-color: goldenrod;
+}
